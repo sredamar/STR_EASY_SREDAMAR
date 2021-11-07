@@ -6,7 +6,7 @@ string itc_cmp_str(string str1, string str2, int num) {
     string new_str = "";
     new_str += itc_slice_str(str1, 0, num - 1);
     new_str += itc_slice_str(str2, 0, len1 - num);
-    new_str += itc_slice_str(str1, num, len1);
-    return itc_slice_str(new_str, 0, len1 - 1);}
+    new_str += itc_slice_str(str1, num + len2, len1);
+    return new_str;}
 
     
