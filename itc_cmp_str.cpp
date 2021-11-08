@@ -9,5 +9,5 @@ string itc_cmp_str(string str1, string str2, int num) {
     new_str += itc_slice_str(str1, num, len1 - 1);}
     else if (num == 0) {
         new_str += itc_slice_str(str2, 0, len2 - 1);
-        new_str += itc_slice_str(str1, len2, len1 - 1);}
+        new_str += itc_slice_str(str1, 0, len2);}
     return itc_slice_str(new_str, 0, (len1 - 1));}
