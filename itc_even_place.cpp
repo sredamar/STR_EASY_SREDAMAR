@@ -1,3 +1,4 @@
+#include "str_easy.h"
 string itc_even_place(string str){
     long long i = 0;
     string str_new = "";
