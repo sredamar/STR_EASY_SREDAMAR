@@ -19,6 +19,5 @@ string itc_mysubstr(string s, int p, int c);
 int mymin_string(int a, int b);
 int itc_find_str(string str1, string str2);
 string itc_three_str(string str1, string str2, string str3);
-
-
+int itc_max_char_on_end(string str);
 #endif // STR_EASY_H_INCLUDED
